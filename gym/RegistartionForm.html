@@ -5,20 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OthyFire.com</title>   
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css"> 
-    <!-- <style>
-        .centered-form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+    <style>
+        .error-message {
+            color: red;
+            font-size: 0.8rem;
+            margin-top: -10px;
+            margin-bottom: 10px;
+            display: none;
         }
-        .form-control, .form-select {
-            margin-bottom: 15px;
+        .is-invalid {
+            border-color: #dc3545;
         }
-        .table {
-            max-width: 600px;
-            margin: 20px auto;
-        }
-    </style> -->
+    </style>
 </head>
 <body> 
     <div class="container"> 
@@ -32,14 +30,29 @@
 <form>
             <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
+<<<<<<< HEAD
                 <form class="centered-form">
                     <input type="text" class="form-control" placeholder="Enter your first name" aria-label="First Name" required="true">
                     <input type="text" class="form-control" placeholder="Enter your last name" aria-label="Last Name">
                     <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email">
                     <input type="tel" class="form-control" placeholder="Enter your phone number" aria-label="Phone number">
+=======
+                <form id="fitnessForm" class="centered-form" novalidate>
+                    <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" aria-label="First Name" required>
+                    <div class="error-message" id="firstNameError">Please enter your first name</div>
+>>>>>>> d0d864f87c680f2171f86cf22aaa7069e251e406
                     
-                    <select class="form-select" aria-label="Month selection">
-                        <option selected>Select your Month</option>
+                    <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" aria-label="Last Name" required>
+                    <div class="error-message" id="lastNameError">Please enter your last name</div>
+                    
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" aria-label="Email" required>
+                    <div class="error-message" id="emailError">Please enter a valid email address</div>
+                    
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" aria-label="Phone number" required>
+                    <div class="error-message" id="phoneError">Please enter your phone number</div>
+                    
+                    <select class="form-select" id="month" aria-label="Month selection" required>
+                        <option value="" selected>Select your Month</option>
                         <option value="January">January</option>
                         <option value="February">February</option>
                         <option value="March">March</option>
@@ -53,18 +66,34 @@
                         <option value="November">November</option>
                         <option value="December">December</option>
                     </select>
+                    <div class="error-message" id="monthError">Please select a month</div>
                     
-                    <input type="number" class="form-control" placeholder="Enter your Date of Birth day" aria-label="Date of Birth day">
-                    <input type="number" class="form-control" placeholder="Enter your Date of Birth year" aria-label="Date of Birth year">
-                    <input type="text" class="form-control" placeholder="Enter your Gender" aria-label="Gender">
-                    <input type="text" class="form-control" placeholder="Enter your Address" aria-label="Address">
-                    <input type="text" class="form-control" placeholder="Enter your City" aria-label="City">
-                    <input type="text" class="form-control" placeholder="Enter your State" aria-label="State">
-                    <input type="number" class="form-control" placeholder="Enter your Age" aria-label="Age">
-                    <input type="number" class="form-control" placeholder="Enter your Weight" aria-label="Weight" value="20">
+                    <input type="number" class="form-control" id="birthDay" placeholder="Enter your Date of Birth day" aria-label="Date of Birth day" required>
+                    <div class="error-message" id="birthDayError">Please enter your birth day</div>
                     
-                    <select class="form-select" aria-label="Country selection">
-                        <option selected>Select your country</option> 
+                    <input type="number" class="form-control" id="birthYear" placeholder="Enter your Date of Birth year" aria-label="Date of Birth year" required>
+                    <div class="error-message" id="birthYearError">Please enter your birth year</div>
+                    
+                    <input type="text" class="form-control" id="gender" placeholder="Enter your Gender" aria-label="Gender" required>
+                    <div class="error-message" id="genderError">Please enter your gender</div>
+                    
+                    <input type="text" class="form-control" id="address" placeholder="Enter your Address" aria-label="Address" required>
+                    <div class="error-message" id="addressError">Please enter your address</div>
+                    
+                    <input type="text" class="form-control" id="city" placeholder="Enter your City" aria-label="City" required>
+                    <div class="error-message" id="cityError">Please enter your city</div>
+                    
+                    <input type="text" class="form-control" id="state" placeholder="Enter your State" aria-label="State" required>
+                    <div class="error-message" id="stateError">Please enter your state</div>
+                    
+                    <input type="number" class="form-control" id="age" placeholder="Enter your Age" aria-label="Age" required>
+                    <div class="error-message" id="ageError">Please enter your age</div>
+                    
+                    <input type="number" class="form-control" id="weight" placeholder="Enter your Weight" aria-label="Weight" value="20" required>
+                    <div class="error-message" id="weightError">Please enter your weight</div>
+                    
+                    <select class="form-select" id="country" aria-label="Country selection" required>
+                        <option value="" selected>Select your country</option> 
                         <option value="Nigeria">Nigeria</option> 
                         <option value="Ghana">Ghana</option> 
                         <option value="Senegal">Senegal</option> 
@@ -97,6 +126,7 @@
                         <option value="Niger">Niger</option>
                         <option value="Gabon">Gabon</option>    
                     </select>
+                    <div class="error-message" id="countryError">Please select your country</div>
                     <br>
                 </form>    
             </div>
@@ -159,8 +189,94 @@
             </div>
         </div>
         
+<<<<<<< HEAD
 
+=======
+        <div class="text-center"> 
+            <button type="button" id="submitBtn" class="btn btn-primary">Submit</button> 
+            <button type="button" id="cancelBtn" class="btn btn-secondary">Cancel</button>     
+        </div> 
+>>>>>>> d0d864f87c680f2171f86cf22aaa7069e251e406
     </div>
     <script src="js/bootstrap.js"></script> 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('fitnessForm');
+            const submitBtn = document.getElementById('submitBtn');
+            const cancelBtn = document.getElementById('cancelBtn');
+            
+            // Function to validate the form
+            function validateForm() {
+                let isValid = true;
+                const inputs = form.querySelectorAll('input[required], select[required]');
+                
+                inputs.forEach(input => {
+                    const errorId = input.id + 'Error';
+                    const errorElement = document.getElementById(errorId);
+                    
+                    if (!input.value.trim()) {
+                        input.classList.add('is-invalid');
+                        errorElement.style.display = 'block';
+                        isValid = false;
+                    } else {
+                        input.classList.remove('is-invalid');
+                        errorElement.style.display = 'none';
+                        
+                        // Additional validation for email
+                        if (input.type === 'email' && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value)) {
+                            input.classList.add('is-invalid');
+                            errorElement.textContent = 'Please enter a valid email address';
+                            errorElement.style.display = 'block';
+                            isValid = false;
+                        }
+                    }
+                });
+                
+                return isValid;
+            }
+            
+            // Submit button click handler
+            submitBtn.addEventListener('click', function() {
+                if (validateForm()) {
+                    alert('Form submitted successfully! Thank you for joining LinoVera Fitness.');
+                    // Here you could also submit the form to a server
+                    // form.submit();
+                } else {
+                    alert('Please fill in all required fields correctly.');
+                }
+            });
+            
+            // Cancel button click handler
+            cancelBtn.addEventListener('click', function() {
+                if (confirm('Are you sure you want to cancel? All entered data will be lost.')) {
+                    form.reset();
+                    // Remove error highlights and messages
+                    const errorMessages = document.querySelectorAll('.error-message');
+                    errorMessages.forEach(msg => {
+                        msg.style.display = 'none';
+                    });
+                    
+                    const invalidInputs = document.querySelectorAll('.is-invalid');
+                    invalidInputs.forEach(input => {
+                        input.classList.remove('is-invalid');
+                    });
+                    
+                    alert('Form has been reset.');
+                }
+            });
+            
+            // Add input event listeners to remove error when user starts typing
+            const inputs = form.querySelectorAll('input, select');
+            inputs.forEach(input => {
+                input.addEventListener('input', function() {
+                    if (this.value.trim()) {
+                        this.classList.remove('is-invalid');
+                        const errorId = this.id + 'Error';
+                        document.getElementById(errorId).style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
 </body> 
 </html>
