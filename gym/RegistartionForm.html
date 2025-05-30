@@ -42,28 +42,11 @@
                     <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" aria-label="Phone number" required>
                     <div class="error-message" id="phoneError">Please enter your phone number</div>
                     
-                    <select class="form-select" id="month" aria-label="Month selection" required>
-                        <option value="" selected>Select your Month</option>
-                        <option value="January">January</option>
-                        <option value="February">February</option>
-                        <option value="March">March</option>
-                        <option value="April">April</option>
-                        <option value="May">May</option>
-                        <option value="June">June</option>
-                        <option value="July">July</option>
-                        <option value="August">August</option>
-                        <option value="September">September</option>
-                        <option value="October">October</option>
-                        <option value="November">November</option>
-                        <option value="December">December</option>
-                    </select>
-                    <div class="error-message" id="monthError">Please select a month</div>
-                    
-                    <input type="number" class="form-control" id="birthDay" placeholder="Enter your Date of Birth day" aria-label="Date of Birth day" required>
-                    <div class="error-message" id="birthDayError">Please enter your birth day</div>
-                    
-                    <input type="number" class="form-control" id="birthYear" placeholder="Enter your Date of Birth year" aria-label="Date of Birth year" required>
-                    <div class="error-message" id="birthYearError">Please enter your birth year</div>
+                 
+                    <label for="birthDate">Date of Birth</label>
+<input type="date" class="form-control" id="birthDate" required>
+<div class="error-message" id="birthDateError">Please select your date of birth</div>
+
                     
                     <input type="text" class="form-control" id="gender" placeholder="Enter your Gender" aria-label="Gender" required>
                     <div class="error-message" id="genderError">Please enter your gender</div>
@@ -119,7 +102,6 @@
                     </select>
                     <div class="error-message" id="countryError">Please select your country</div>
                     <br>
-                </form>    
             </div>
         </div>
 
