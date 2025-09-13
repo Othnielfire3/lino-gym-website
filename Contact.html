@@ -47,80 +47,145 @@
     </div>
     <!-- Navbar End -->
 
+    <!-- Contact us -->
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Lino Gym</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
 
+    /* Hero section */
+    .contact-header {
+      background: url('https://images.unsplash.com/photo-1594737625785-c26d1c3b9c6b?auto=format&fit=crop&w=1500&q=80') center center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px;
+    }
 
-    <!-- Subscribe Start -->
-    <div class="subscribe container-fluid my-5 py-5 text-center">
-        <h4 class="display-4 text-white font-weight-bold mt-5 mb-3">Subscribe Our Youtube- </h4>
-        <p class="text-white mb-4">Subscribe and get to see and watch from your homes and learn new gym trainings that will help your body to be fit</p>
-        <form class="form-inline justify-content-center mb-5">
-            <div class="input-group">
-                <input type="text" class="form-control-lg" placeholder="Youtube-">
-                <div class="input-group-append">
-                    <button class="btn btn-primary" type="submit">Copy Link</button>
-                </div>
-            </div>
+    .contact-header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Contact Info Icons */
+    .contact-info i {
+      font-size: 20px;
+      color: #ffcc00;
+      margin-right: 10px;
+    }
+
+    /* Form styling */
+    .form-control:focus {
+      border-color: #ffcc00;
+      box-shadow: 0 0 5px rgba(255, 204, 0, 0.5);
+    }
+
+    .btn-custom {
+      background-color: #ffcc00;
+      color: #000;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn-custom:hover {
+      background-color: #e6b800;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 300px;
+      margin-top: 15px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="contact-header">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you. Let's get in touch!</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="container my-5">
+    <div class="row g-5">
+      
+      <!-- Contact Info -->
+      <div class="col-lg-5">
+        <h2 class="mb-4">Get in Touch</h2>
+        <p class="mb-4">Have questions, suggestions, or feedback? Reach out to us and our team will assist you.</p>
+        
+        <div class="contact-info mb-4">
+          <p><i class="fas fa-location-dot"></i> 8 Abiri Grove , Ajayi Farm Estate, Lagos, Nigeria</p>
+          <p><i class="fas fa-phone"></i> +234 806 025 6261</p>
+          <p><i class="fas fa-envelope"></i> contact@Lino-Gym.com</p>
+          <p><i class="fas fa-clock"></i> Mon - Sat: 7:30 AM - 6:30 PM</p>
+        </div>
+        
+        <!-- Google Map -->
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31620.078320142405!2d3.3488898!3d6.5243793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4fc9c94f6fb%3A0xb468d99f52082a84!2sLagos!5e0!3m2!1sen!2sng!4v1699724793948!5m2!1sen!2sng" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-7">
+        <h2 class="mb-4">Send Us a Message</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Type your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-custom px-4">Send Message</button>
         </form>
+      </div>
     </div>
-    <!-- Subscribe End -->
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-3" style="background-color: #000; color: #fff;">
+    <p class="mb-0">&copy; 2025 PowerFit Gym. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+    <!-- Contact us End -->
+                    
 
 
-    <!-- Contact Start -->
-    <div class="container-fluid py-5">  
-        <div class="container">
-            <div class="text-center mb-5">
-                <h4 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Contact Us</h4>
-                <h1>Feel Free To Contact Us</h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-7">
-                    <form>
-                        <div class="form-row">
-                            <div class="col-sm-6 control-group">
-                                <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
-                                    required="required" data-validation-required-message="Please enter your name" />
-                                <p class="help-block text-danger"></p>
-                            </div>
 
-                            <div class="col-sm-6 control-group">
-                                <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
-                                    required="required" data-validation-required-message="Please enter your email" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            
-                            <div class="col-sm-6 control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>      
-
-
-                            <div class="col-sm-6 control-group">
-                                <input type="text" class="form-control p-4" id="phone" placeholder="Your Phone"
-                                    required="required" data-validation-required-message="Please enter your phone number" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-
-                            <div class="col-12 control-group">
-                                <textarea class="form-control p-4" rows="6" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-
-                            <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit" id="sendMessageButton">Send
-                                    Message</button>
-                            </div>
-                        </div>
-                    </form>
-
-                
-                
-             
-                <!-- contact end -->
-                
 
 
     <!-- Footer Start -->
