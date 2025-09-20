@@ -65,67 +65,77 @@
    
 
     <!-- Classes Timetable Start -->
-    <div class="container my-5">
-        <h2 class="text-center mb-4">Weekly Class Timetable</h2>
-        <div class="table-responsive">
-            <table class="table table-bordered table-striped text-center">
-                <thead class="thead-dark">
-                    <tr>
-                        <th>Time</th>
-                        <th>Monday</th>
-                        <th>Tuesday</th>
-                        <th>Wednesday</th>
-                        <th>Thursday</th>
-                        <th>Friday</th>
-                        <th>Saturday</th>
-                        <th>Sunday</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>6:00 - 7:00</td>
-                        <td>Yoga</td>
-                        <td>HIIT</td>
-                        <td>Yoga</td>
-                        <td>HIIT</td>
-                        <td>Yoga</td>
-                        <td>Spin</td>
-                        <td>Rest</td>
-                    </tr>
-                    <tr>
-                        <td>7:30 - 8:30</td>
-                        <td>Spin</td>
-                        <td>Pilates</td>
-                        <td>Spin</td>
-                        <td>Pilates</td>
-                        <td>Spin</td>
-                        <td>CrossFit</td>
-                        <td>Rest</td>
-                    </tr>
-                    <tr>
-                        <td>18:00 - 19:00</td>
-                        <td>CrossFit</td>
-                        <td>Zumba</td>
-                        <td>CrossFit</td>
-                        <td>Zumba</td>
-                        <td>CrossFit</td>
-                        <td>Yoga</td>
-                        <td>Rest</td>
-                    </tr>
-                    <tr>
-                        <td>19:30 - 20:30</td>
-                        <td>Boxing</td>
-                        <td>Boxing</td>
-                        <td>Pilates</td>
-                        <td>Boxing</td>
-                        <td>Pilates</td>
-                        <td>Zumba</td>
-                        <td>Rest</td>
-                    </tr>
-                </tbody>
-            </table>
+      <div class="container gym-feature py-5">
+        <div class="d-flex flex-column text-center mb-5">
+            <h4 class="text-primary font-weight-bold">Class Timetable</h4>
+            <h4 class="display-4 font-weight-bold">Working Hours and Class Time</h4>
+        </div>
+        <div class="tab-class">
+            <ul class="nav nav-pills justify-content-center mb-4">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#class-all">All Classes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#class-cardio and abs">Cardio and abs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#class-strength">strength</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#class-Glutes">Glutes</a>
+                </li>
+                     <a class="nav-link" data-toggle="pill" href="#class-Dance aerobics">Dance aerobics</a>
+                </li>
+                     <a class="nav-link" data-toggle="pill" href="#obliques">obliques</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="class-all" class="container tab-pane p-0 active">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-lg m-0">
+                            <thead class="bg-secondary text-white text-center">
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                  
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">8.30am - 10.00am</th>
+                                    <td><h5>Cardio and abs</h5>Coach Lino</td>
+                                    <td><h5>Cardio and strength Training</h5>Coach Lino</td>
+                                    <td><h5>Glutes and cardio</h5>Coach Lino</td>
+                                    <td><h5>Dance aerobics, abs, Strength Training</h5>Coach Lino</td>
+                                    <td><h5>Leg Glutes, abs, Obliques</h5>Coach Lino</td>
+                                </tr>
+                    
+                                <tr>
+                                    <th class="bg-secondary text-white align-middle">5.00pm - 7.00pm</th>
+                                    <td><h5>Self training with machines</h5>None</td>
+                                    <td><h5>Self training with machines</h5>None</td>                                  
+                                    <td><h5>Self training with machines</h5>None</td>                                 
+                                    <td><h5>Self training with machines</h5>None</td>                             
+                                    <td><h5>Self training with machine</h5>None</td>
+                                   
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> 
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+  
     <!-- Classes Timetable End -->
 
 
@@ -164,7 +174,50 @@
         </div>
     </div>
     <!-- Gym Features End -->
-
+    <!-- BMI Calculation Start -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">BMI Calculator</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form id="bmiForm">
+                    <div class="form-group mb-3">
+                        <label for="weight">Weight (kg):</label>
+                        <input type="number" class="form-control" id="weight" required>
+                    </div>
+                    <div class="form-group mb-3">
+                            <label for="height">Height (cm):</label>
+                            <input type="number" class="form-control" id="height" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Calculate BMI</button>
+                </form>
+                <div id="bmiResult" class="mt-4 text-center"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('bmiForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const weight = parseFloat(document.getElementById('weight').value);
+            const height = parseFloat(document.getElementById('height').value) / 100; // convert cm to meters
+            if (weight > 0 && height > 0) {
+                const bmi = (weight / (height * height)).toFixed(2);
+                let category = '';
+                if (bmi < 18.5) {
+                    category = 'Underweight';
+                } else if (bmi < 24.9) {
+                    category = 'Normal weight';
+                } else if (bmi < 29.9) {
+                    category = 'Overweight';
+                } else {
+                    category = 'Obesity';
+                }
+                document.getElementById('bmiResult').innerHTML = `<h4>Your BMI: ${bmi}</h4><p>Category: ${category}</p>`;
+            } else {
+                document.getElementById('bmiResult').innerHTML = '<p class="text-danger">Please enter valid weight and height.</p>';
+            }
+        });
+    </script>
+    <!-- BMI Calculation End -->
 
 
   <!-- Footer Start -->
