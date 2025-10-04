@@ -363,6 +363,29 @@
                                 <div class="col">
                                     <input type="button" class="btn btn-lg btn-block btn-dark border-light"
                                         value="Calculate Now">
+                                            <script>
+        document.getElementById('bmiForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const weight = parseFloat(document.getElementById('weight').value);
+            const height = parseFloat(document.getElementById('height').value) / 100; // convert cm to meters
+            if (weight > 0 && height > 0) {
+                const bmi = (weight / (height * height)).toFixed(2);
+                let category = '';
+                if (bmi < 18.5) {
+                    category = 'Underweight';
+                } else if (bmi < 24.9) {
+                    category = 'Normal weight';
+                } else if (bmi < 29.9) {
+                    category = 'Overweight';
+                } else {
+                    category = 'Obesity';
+                }
+                document.getElementById('bmiResult').innerHTML = `<h4>Your BMI: ${bmi}</h4><p>Category: ${category}</p>`;
+            } else {
+                document.getElementById('bmiResult').innerHTML = '<p class="text-danger">Please enter valid weight and height.</p>';
+            }
+        });
+    </script>
                                 </div>
                             </div>
                         </form>
