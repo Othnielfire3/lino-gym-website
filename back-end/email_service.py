@@ -3,6 +3,7 @@ from decouple import config
 from flask import flash
 import logging
 import sys
+from resend.exceptions import ResendError
 
 # Set up logging
 logging.basicConfig(
@@ -31,6 +32,13 @@ class EmailService:
             logger.info(f"From email: {self.from_email}")
             logger.info(f"To email: {self.to_email}")
             logger.info(f"Resend API key present: {bool(self.resend_api_key)}")
+            
+            # Check if using Gmail address (which requires domain verification)
+            if 'gmail.com' in self.from_email:
+                logger.warning("⚠️  Using Gmail address as FROM_EMAIL. You need to:")
+                logger.warning("   1. Verify your domain in Resend dashboard, OR")
+                logger.warning("   2. Use a domain you own and verify it, OR")
+                logger.warning("   3. Use a Resend verified email address")
             
         except Exception as e:
             logger.error(f"Failed to initialize EmailService: {str(e)}")
@@ -87,11 +95,18 @@ class EmailService:
             
             return True, "Thank you for your message! We will get back to you soon."
             
-        except resend.core.ResendError as e:
+        except ResendError as e:
             error_msg = f"Resend API error: {str(e)}"
             logger.error(error_msg)
             logger.error(f"Error type: {type(e).__name__}")
-            return False, "Sorry, there was an error with our email service. Please try again later."
+            
+            # Provide specific error messages based on the error
+            if "domain is not verified" in str(e):
+                return False, "Our email service is currently being configured. Please try again later or contact us directly."
+            elif "unauthorized" in str(e).lower():
+                return False, "Email service configuration error. Please contact the website administrator."
+            else:
+                return False, "Sorry, there was an error with our email service. Please try again later."
             
         except Exception as e:
             error_msg = f"Unexpected error sending email: {str(e)}"

@@ -199,3 +199,269 @@ AttributeError: module 'resend' has no attribute 'core'
 2025-10-25 15:49:55,955 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 15:49:55] "[36mGET /nelson-programming-class/lib/waypoints/waypoints.min.js HTTP/1.1[0m" 304 -
 2025-10-25 15:49:55,957 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 15:49:55] "[36mGET /nelson-programming-class/js/main.js HTTP/1.1[0m" 304 -
 2025-10-25 15:49:55,964 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 15:49:55] "[36mGET /nelson-programming-class/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:21,782 - __main__ - INFO - Flask app starting up...
+2025-10-25 16:20:21,782 - __main__ - INFO - Template folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:20:21,782 - __main__ - INFO - Static folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:20:21,782 - __main__ - INFO - Debug mode: True
+2025-10-25 16:20:21,831 - email_service - INFO - EmailService initialized successfully
+2025-10-25 16:20:21,832 - email_service - INFO - From email: nellyleo08060@gmail.com
+2025-10-25 16:20:21,832 - email_service - INFO - To email: akinyeleangelina@gmail.com
+2025-10-25 16:20:21,832 - email_service - INFO - Resend API key present: True
+2025-10-25 16:20:21,832 - email_service - INFO - Email service instance created successfully
+2025-10-25 16:20:21,832 - __main__ - INFO - Routes initialized successfully
+2025-10-25 16:20:21,832 - __main__ - INFO - Starting Flask application on http://localhost:5000
+2025-10-25 16:20:21,873 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 16:20:21,873 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 16:20:21,875 - werkzeug - INFO -  * Restarting with stat
+2025-10-25 16:20:21,980 - __main__ - INFO - Flask app starting up...
+2025-10-25 16:20:21,980 - __main__ - INFO - Template folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:20:21,980 - __main__ - INFO - Static folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:20:21,980 - __main__ - INFO - Debug mode: True
+2025-10-25 16:20:22,009 - email_service - INFO - EmailService initialized successfully
+2025-10-25 16:20:22,009 - email_service - INFO - From email: nellyleo08060@gmail.com
+2025-10-25 16:20:22,009 - email_service - INFO - To email: akinyeleangelina@gmail.com
+2025-10-25 16:20:22,009 - email_service - INFO - Resend API key present: True
+2025-10-25 16:20:22,009 - email_service - INFO - Email service instance created successfully
+2025-10-25 16:20:22,010 - __main__ - INFO - Routes initialized successfully
+2025-10-25 16:20:22,010 - __main__ - INFO - Starting Flask application on http://localhost:5000
+2025-10-25 16:20:22,030 - werkzeug - WARNING -  * Debugger is active!
+2025-10-25 16:20:22,042 - werkzeug - INFO -  * Debugger PIN: 327-123-532
+2025-10-25 16:20:34,841 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "GET / HTTP/1.1" 200 -
+2025-10-25 16:20:34,919 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,923 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/Homepage%201.png HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,927 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/Homepage%202.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,928 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/Lino_Logo.png HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,929 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/About%20us%201.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,929 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/css/style.min.css HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,932 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/feature-1.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,936 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/lib/easing/easing.min.js HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,947 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[33mGET /nelson-programming-class/mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:20:34,953 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[33mGET /nelson-programming-class/mail/contact.js HTTP/1.1[0m" 404 -
+2025-10-25 16:20:34,954 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/lib/waypoints/waypoints.min.js HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,956 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/js/main.js HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,960 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/feature-2.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,961 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/feature-3.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,967 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/feature-4.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,968 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/team-2.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,968 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/Team.1_exe-removebg-preview.png HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,970 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/team-3.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,972 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/team-4.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,973 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/testimonial-1.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,976 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/testimonial-2.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,978 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/testimonial-3.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,979 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:34,979 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:34] "[36mGET /nelson-programming-class/img/carousel-1.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:20:35,048 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:35] "[36mGET /nelson-programming-class/lib/flaticon/font/Flaticon.woff2 HTTP/1.1[0m" 304 -
+2025-10-25 16:20:35,054 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:20:35] "[36mGET /nelson-programming-class/img/carousel-2.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,652 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "GET / HTTP/1.1" 200 -
+2025-10-25 16:21:02,725 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/About%20us%201.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,728 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,728 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/css/style.min.css HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,729 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/Homepage%201.png HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,729 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/Homepage%202.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,730 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/Lino_Logo.png HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,762 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[33mGET /nelson-programming-class/mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:21:02,767 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[33mGET /nelson-programming-class/mail/contact.js HTTP/1.1[0m" 404 -
+2025-10-25 16:21:02,771 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/lib/easing/easing.min.js HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,782 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/lib/waypoints/waypoints.min.js HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,784 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/feature-1.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,791 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/js/main.js HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,801 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/feature-2.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,802 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/feature-3.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,803 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/feature-4.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,807 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/lib/flaticon/font/Flaticon.woff2 HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,807 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/team-2.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,808 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/Team.1_exe-removebg-preview.png HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,808 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/team-3.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,810 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/team-4.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,811 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/testimonial-1.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,816 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/testimonial-2.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,821 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/testimonial-3.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,822 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,826 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/carousel-2.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:02,826 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:02] "[36mGET /nelson-programming-class/img/carousel-1.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:37,768 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:37] "GET /about HTTP/1.1" 200 -
+2025-10-25 16:21:37,843 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:37] "[33mGET /lib/flaticon/font/flaticon.css HTTP/1.1[0m" 404 -
+2025-10-25 16:21:37,844 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:37] "[33mGET /css/style.min.css HTTP/1.1[0m" 404 -
+2025-10-25 16:21:37,845 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:37] "[33mGET /img/about.jpg HTTP/1.1[0m" 404 -
+2025-10-25 16:21:37,846 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:37] "[33mGET /lib/easing/easing.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:21:37,847 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:37] "[33mGET /lib/waypoints/waypoints.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:21:37,849 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:37] "[33mGET /mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:21:37,851 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:37] "[33mGET /mail/contact.js HTTP/1.1[0m" 404 -
+2025-10-25 16:21:37,856 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:37] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2025-10-25 16:21:54,431 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:54] "GET /contact HTTP/1.1" 200 -
+2025-10-25 16:21:54,451 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:54] "[36mGET /nelson-programming-class/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-10-25 16:21:54,456 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:54] "[33mGET /nelson-programming-class/mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:21:54,459 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:54] "[36mGET /nelson-programming-class/css/style.min.css HTTP/1.1[0m" 304 -
+2025-10-25 16:21:54,463 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:54] "[36mGET /nelson-programming-class/img/Lino_Logo.png HTTP/1.1[0m" 304 -
+2025-10-25 16:21:54,465 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:54] "[36mGET /nelson-programming-class/lib/easing/easing.min.js HTTP/1.1[0m" 304 -
+2025-10-25 16:21:54,478 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:54] "[36mGET /nelson-programming-class/lib/waypoints/waypoints.min.js HTTP/1.1[0m" 304 -
+2025-10-25 16:21:54,482 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:54] "[33mGET /nelson-programming-class/mail/contact.js HTTP/1.1[0m" 404 -
+2025-10-25 16:21:54,504 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:54] "[36mGET /nelson-programming-class/js/main.js HTTP/1.1[0m" 304 -
+2025-10-25 16:21:54,505 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:54] "[36mGET /nelson-programming-class/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:21:59,621 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:59] "GET /about HTTP/1.1" 200 -
+2025-10-25 16:21:59,647 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:59] "[33mGET /lib/flaticon/font/flaticon.css HTTP/1.1[0m" 404 -
+2025-10-25 16:21:59,654 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:59] "[33mGET /css/style.min.css HTTP/1.1[0m" 404 -
+2025-10-25 16:21:59,656 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:59] "[33mGET /img/about.jpg HTTP/1.1[0m" 404 -
+2025-10-25 16:21:59,662 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:59] "[33mGET /lib/waypoints/waypoints.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:21:59,669 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:59] "[33mGET /lib/easing/easing.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:21:59,673 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:59] "[33mGET /mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:21:59,681 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:59] "[33mGET /mail/contact.js HTTP/1.1[0m" 404 -
+2025-10-25 16:21:59,683 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:21:59] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2025-10-25 16:22:04,722 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:22:04] "GET /feature HTTP/1.1" 200 -
+2025-10-25 16:22:04,756 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:22:04] "[33mGET /lib/flaticon/font/flaticon.css HTTP/1.1[0m" 404 -
+2025-10-25 16:22:04,757 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:22:04] "[33mGET /css/style.min.css HTTP/1.1[0m" 404 -
+2025-10-25 16:22:04,758 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:22:04] "[33mGET /img/Lino_Logo.png HTTP/1.1[0m" 404 -
+2025-10-25 16:22:04,758 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:22:04] "[33mGET /img/feature.jpg HTTP/1.1[0m" 404 -
+2025-10-25 16:22:04,760 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:22:04] "[33mGET /img/Head%201%20Testimonal.jpg HTTP/1.1[0m" 404 -
+2025-10-25 16:22:04,761 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:22:04] "[33mGET /img/Head%202.png HTTP/1.1[0m" 404 -
+2025-10-25 16:22:04,766 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:22:04] "[33mGET /img/Head%203.png HTTP/1.1[0m" 404 -
+2025-10-25 16:22:04,771 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:22:04] "[33mGET /lib/easing/easing.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:22:04,772 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:22:04] "[33mGET /lib/waypoints/waypoints.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:22:04,773 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:22:04] "[33mGET /mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:22:04,776 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:22:04] "[33mGET /mail/contact.js HTTP/1.1[0m" 404 -
+2025-10-25 16:22:04,777 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:22:04] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2025-10-25 16:23:43,394 - werkzeug - INFO -  * Detected change in '/Users/mac/Documents/Repo/Html/nelson-programming-class/back-end/email_service.py', reloading
+2025-10-25 16:23:43,436 - werkzeug - INFO -  * Restarting with stat
+2025-10-25 16:23:43,605 - __main__ - INFO - Flask app starting up...
+2025-10-25 16:23:43,605 - __main__ - INFO - Template folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:23:43,605 - __main__ - INFO - Static folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:23:43,605 - __main__ - INFO - Debug mode: True
+2025-10-25 16:23:43,648 - email_service - INFO - EmailService initialized successfully
+2025-10-25 16:23:43,649 - email_service - INFO - From email: nellyleo08060@gmail.com
+2025-10-25 16:23:43,649 - email_service - INFO - To email: akinyeleangelina@gmail.com
+2025-10-25 16:23:43,649 - email_service - INFO - Resend API key present: True
+2025-10-25 16:23:43,649 - email_service - WARNING - ⚠️  Using Gmail address as FROM_EMAIL. You need to:
+2025-10-25 16:23:43,649 - email_service - WARNING -    1. Verify your domain in Resend dashboard, OR
+2025-10-25 16:23:43,649 - email_service - WARNING -    2. Use a domain you own and verify it, OR
+2025-10-25 16:23:43,649 - email_service - WARNING -    3. Use a Resend verified email address
+2025-10-25 16:23:43,649 - email_service - INFO - Email service instance created successfully
+2025-10-25 16:23:43,650 - __main__ - INFO - Routes initialized successfully
+2025-10-25 16:23:43,650 - __main__ - INFO - Starting Flask application on http://localhost:5000
+2025-10-25 16:23:43,677 - werkzeug - WARNING -  * Debugger is active!
+2025-10-25 16:23:43,684 - werkzeug - INFO -  * Debugger PIN: 327-123-532
+2025-10-25 16:23:44,700 - werkzeug - INFO -  * Detected change in '/Users/mac/Documents/Repo/Html/nelson-programming-class/back-end/email_service.py', reloading
+2025-10-25 16:23:44,723 - werkzeug - INFO -  * Restarting with stat
+2025-10-25 16:23:44,833 - __main__ - INFO - Flask app starting up...
+2025-10-25 16:23:44,833 - __main__ - INFO - Template folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:23:44,833 - __main__ - INFO - Static folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:23:44,834 - __main__ - INFO - Debug mode: True
+2025-10-25 16:23:44,864 - email_service - INFO - EmailService initialized successfully
+2025-10-25 16:23:44,864 - email_service - INFO - From email: nellyleo08060@gmail.com
+2025-10-25 16:23:44,865 - email_service - INFO - To email: akinyeleangelina@gmail.com
+2025-10-25 16:23:44,865 - email_service - INFO - Resend API key present: True
+2025-10-25 16:23:44,865 - email_service - WARNING - ⚠️  Using Gmail address as FROM_EMAIL. You need to:
+2025-10-25 16:23:44,865 - email_service - WARNING -    1. Verify your domain in Resend dashboard, OR
+2025-10-25 16:23:44,865 - email_service - WARNING -    2. Use a domain you own and verify it, OR
+2025-10-25 16:23:44,865 - email_service - WARNING -    3. Use a Resend verified email address
+2025-10-25 16:23:44,865 - email_service - INFO - Email service instance created successfully
+2025-10-25 16:23:44,865 - __main__ - INFO - Routes initialized successfully
+2025-10-25 16:23:44,866 - __main__ - INFO - Starting Flask application on http://localhost:5000
+2025-10-25 16:23:44,885 - werkzeug - WARNING -  * Debugger is active!
+2025-10-25 16:23:44,890 - werkzeug - INFO -  * Debugger PIN: 327-123-532
+2025-10-25 16:25:40,246 - werkzeug - INFO -  * Detected change in '/Users/mac/Documents/Repo/Html/nelson-programming-class/back-end/verify_resend_setup.py', reloading
+2025-10-25 16:25:40,267 - werkzeug - INFO -  * Restarting with stat
+2025-10-25 16:25:40,432 - __main__ - INFO - Flask app starting up...
+2025-10-25 16:25:40,432 - __main__ - INFO - Template folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:25:40,432 - __main__ - INFO - Static folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:25:40,433 - __main__ - INFO - Debug mode: True
+2025-10-25 16:25:40,479 - email_service - INFO - EmailService initialized successfully
+2025-10-25 16:25:40,479 - email_service - INFO - From email: nellyleo08060@gmail.com
+2025-10-25 16:25:40,479 - email_service - INFO - To email: akinyeleangelina@gmail.com
+2025-10-25 16:25:40,479 - email_service - INFO - Resend API key present: True
+2025-10-25 16:25:40,479 - email_service - WARNING - ⚠️  Using Gmail address as FROM_EMAIL. You need to:
+2025-10-25 16:25:40,479 - email_service - WARNING -    1. Verify your domain in Resend dashboard, OR
+2025-10-25 16:25:40,479 - email_service - WARNING -    2. Use a domain you own and verify it, OR
+2025-10-25 16:25:40,479 - email_service - WARNING -    3. Use a Resend verified email address
+2025-10-25 16:25:40,479 - email_service - INFO - Email service instance created successfully
+2025-10-25 16:25:40,480 - __main__ - INFO - Routes initialized successfully
+2025-10-25 16:25:40,480 - __main__ - INFO - Starting Flask application on http://localhost:5000
+2025-10-25 16:25:40,508 - werkzeug - WARNING -  * Debugger is active!
+2025-10-25 16:25:40,516 - werkzeug - INFO -  * Debugger PIN: 327-123-532
+2025-10-25 16:25:41,531 - werkzeug - INFO -  * Detected change in '/Users/mac/Documents/Repo/Html/nelson-programming-class/back-end/verify_resend_setup.py', reloading
+2025-10-25 16:25:41,551 - werkzeug - INFO -  * Restarting with stat
+2025-10-25 16:25:41,661 - __main__ - INFO - Flask app starting up...
+2025-10-25 16:25:41,661 - __main__ - INFO - Template folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:25:41,661 - __main__ - INFO - Static folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:25:41,661 - __main__ - INFO - Debug mode: True
+2025-10-25 16:25:41,693 - email_service - INFO - EmailService initialized successfully
+2025-10-25 16:25:41,693 - email_service - INFO - From email: nellyleo08060@gmail.com
+2025-10-25 16:25:41,693 - email_service - INFO - To email: akinyeleangelina@gmail.com
+2025-10-25 16:25:41,693 - email_service - INFO - Resend API key present: True
+2025-10-25 16:25:41,693 - email_service - WARNING - ⚠️  Using Gmail address as FROM_EMAIL. You need to:
+2025-10-25 16:25:41,693 - email_service - WARNING -    1. Verify your domain in Resend dashboard, OR
+2025-10-25 16:25:41,693 - email_service - WARNING -    2. Use a domain you own and verify it, OR
+2025-10-25 16:25:41,693 - email_service - WARNING -    3. Use a Resend verified email address
+2025-10-25 16:25:41,693 - email_service - INFO - Email service instance created successfully
+2025-10-25 16:25:41,694 - __main__ - INFO - Routes initialized successfully
+2025-10-25 16:25:41,695 - __main__ - INFO - Starting Flask application on http://localhost:5000
+2025-10-25 16:25:41,716 - werkzeug - WARNING -  * Debugger is active!
+2025-10-25 16:25:41,723 - werkzeug - INFO -  * Debugger PIN: 327-123-532
+2025-10-25 16:27:50,532 - __main__ - INFO - Flask app starting up...
+2025-10-25 16:27:50,532 - __main__ - INFO - Template folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:27:50,532 - __main__ - INFO - Static folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:27:50,532 - __main__ - INFO - Debug mode: True
+2025-10-25 16:27:50,573 - email_service - INFO - EmailService initialized successfully
+2025-10-25 16:27:50,573 - email_service - INFO - From email: onboarding@resend.dev
+2025-10-25 16:27:50,573 - email_service - INFO - To email: delivered@resend.dev
+2025-10-25 16:27:50,573 - email_service - INFO - Resend API key present: True
+2025-10-25 16:27:50,573 - email_service - INFO - Email service instance created successfully
+2025-10-25 16:27:50,574 - __main__ - INFO - Routes initialized successfully
+2025-10-25 16:27:50,574 - __main__ - INFO - Starting Flask application on http://localhost:5000
+2025-10-25 16:27:50,607 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-25 16:27:50,607 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-25 16:27:50,609 - werkzeug - INFO -  * Restarting with stat
+2025-10-25 16:27:50,712 - __main__ - INFO - Flask app starting up...
+2025-10-25 16:27:50,712 - __main__ - INFO - Template folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:27:50,712 - __main__ - INFO - Static folder: /Users/mac/Documents/Repo/Html/nelson-programming-class
+2025-10-25 16:27:50,712 - __main__ - INFO - Debug mode: True
+2025-10-25 16:27:50,743 - email_service - INFO - EmailService initialized successfully
+2025-10-25 16:27:50,743 - email_service - INFO - From email: onboarding@resend.dev
+2025-10-25 16:27:50,743 - email_service - INFO - To email: delivered@resend.dev
+2025-10-25 16:27:50,743 - email_service - INFO - Resend API key present: True
+2025-10-25 16:27:50,743 - email_service - INFO - Email service instance created successfully
+2025-10-25 16:27:50,744 - __main__ - INFO - Routes initialized successfully
+2025-10-25 16:27:50,744 - __main__ - INFO - Starting Flask application on http://localhost:5000
+2025-10-25 16:27:50,764 - werkzeug - WARNING -  * Debugger is active!
+2025-10-25 16:27:50,771 - werkzeug - INFO -  * Debugger PIN: 327-123-532
+2025-10-25 16:27:58,668 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:27:58] "GET /contact HTTP/1.1" 200 -
+2025-10-25 16:27:58,716 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:27:58] "[36mGET /nelson-programming-class/css/style.min.css HTTP/1.1[0m" 304 -
+2025-10-25 16:27:58,716 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:27:58] "[36mGET /nelson-programming-class/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-10-25 16:27:58,716 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:27:58] "[36mGET /nelson-programming-class/lib/easing/easing.min.js HTTP/1.1[0m" 304 -
+2025-10-25 16:27:58,717 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:27:58] "[36mGET /nelson-programming-class/img/Lino_Logo.png HTTP/1.1[0m" 304 -
+2025-10-25 16:27:58,721 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:27:58] "[33mGET /nelson-programming-class/mail/contact.js HTTP/1.1[0m" 404 -
+2025-10-25 16:27:58,722 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:27:58] "[33mGET /nelson-programming-class/mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:27:58,729 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:27:58] "[36mGET /nelson-programming-class/lib/waypoints/waypoints.min.js HTTP/1.1[0m" 304 -
+2025-10-25 16:27:58,729 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:27:58] "[36mGET /nelson-programming-class/js/main.js HTTP/1.1[0m" 304 -
+2025-10-25 16:27:58,751 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:27:58] "[36mGET /nelson-programming-class/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:28:00,603 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:00] "GET /contact HTTP/1.1" 200 -
+2025-10-25 16:28:00,626 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:00] "[36mGET /nelson-programming-class/css/style.min.css HTTP/1.1[0m" 304 -
+2025-10-25 16:28:00,627 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:00] "[36mGET /nelson-programming-class/img/Lino_Logo.png HTTP/1.1[0m" 304 -
+2025-10-25 16:28:00,628 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:00] "[36mGET /nelson-programming-class/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-10-25 16:28:00,629 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:00] "[33mGET /nelson-programming-class/mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:28:00,631 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:00] "[36mGET /nelson-programming-class/lib/easing/easing.min.js HTTP/1.1[0m" 304 -
+2025-10-25 16:28:00,632 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:00] "[33mGET /nelson-programming-class/mail/contact.js HTTP/1.1[0m" 404 -
+2025-10-25 16:28:00,632 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:00] "[36mGET /nelson-programming-class/lib/waypoints/waypoints.min.js HTTP/1.1[0m" 304 -
+2025-10-25 16:28:00,633 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:00] "[36mGET /nelson-programming-class/js/main.js HTTP/1.1[0m" 304 -
+2025-10-25 16:28:00,636 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:00] "[36mGET /nelson-programming-class/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-10-25 16:28:55,823 - routes - INFO - Contact form submitted - Name: Ese Glory, Email: pasosoese@gmail.com, Phone: 08078608405
+2025-10-25 16:28:55,824 - email_service - INFO - Attempting to send contact email from Ese Glory (pasosoese@gmail.com)
+2025-10-25 16:28:55,824 - email_service - DEBUG - Email parameters: {'from': 'onboarding@resend.dev', 'to': ['delivered@resend.dev'], 'subject': 'New Contact Form Submission - Lino Gym'}
+2025-10-25 16:28:55,824 - email_service - INFO - Sending email via Resend API...
+2025-10-25 16:28:56,171 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.resend.com:443
+2025-10-25 16:28:57,543 - urllib3.connectionpool - DEBUG - https://api.resend.com:443 "POST /emails HTTP/1.1" 200 None
+2025-10-25 16:28:57,546 - email_service - INFO - Email sent successfully! Response: {'id': 'bfdc5e01-8671-497e-8134-f721eb47102f'}
+2025-10-25 16:28:57,547 - routes - INFO - Contact form processed successfully for pasosoese@gmail.com
+2025-10-25 16:28:57,548 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:57] "[32mPOST /contact HTTP/1.1[0m" 302 -
+2025-10-25 16:28:57,554 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:57] "GET /contact HTTP/1.1" 200 -
+2025-10-25 16:28:57,607 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:57] "[36mGET /nelson-programming-class/img/Lino_Logo.png HTTP/1.1[0m" 304 -
+2025-10-25 16:28:57,610 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:57] "[36mGET /nelson-programming-class/css/style.min.css HTTP/1.1[0m" 304 -
+2025-10-25 16:28:57,611 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:57] "[36mGET /nelson-programming-class/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-10-25 16:28:57,614 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:57] "[36mGET /nelson-programming-class/lib/easing/easing.min.js HTTP/1.1[0m" 304 -
+2025-10-25 16:28:57,619 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:57] "[33mGET /nelson-programming-class/mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-10-25 16:28:57,621 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:57] "[33mGET /nelson-programming-class/mail/contact.js HTTP/1.1[0m" 404 -
+2025-10-25 16:28:57,621 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:57] "[36mGET /nelson-programming-class/lib/waypoints/waypoints.min.js HTTP/1.1[0m" 304 -
+2025-10-25 16:28:57,623 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:57] "[36mGET /nelson-programming-class/js/main.js HTTP/1.1[0m" 304 -
+2025-10-25 16:28:57,632 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:57] "[36mGET /nelson-programming-class/img/bg.jpg HTTP/1.1[0m" 304 -
