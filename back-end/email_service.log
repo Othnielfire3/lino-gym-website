@@ -1,0 +1,48 @@
+2025-10-25 15:44:44,648 - email_service - INFO - EmailService initialized successfully
+2025-10-25 15:44:44,648 - email_service - INFO - From email: your-verified-email
+2025-10-25 15:44:44,648 - email_service - INFO - To email: akinyeleangelina@gmail.com
+2025-10-25 15:44:44,648 - email_service - INFO - Resend API key present: True
+2025-10-25 15:44:44,648 - email_service - INFO - Email service instance created successfully
+2025-10-25 15:44:44,683 - werkzeug - WARNING -  * Debugger is active!
+2025-10-25 15:44:44,689 - werkzeug - INFO -  * Debugger PIN: 327-123-532
+2025-10-25 15:44:45,704 - werkzeug - INFO -  * Detected change in '/Users/mac/Documents/Repo/Html/nelson-programming-class/back-end/email_service.py', reloading
+2025-10-25 15:44:45,854 - email_service - INFO - EmailService initialized successfully
+2025-10-25 15:44:45,854 - email_service - INFO - From email: your-verified-email
+2025-10-25 15:44:45,854 - email_service - INFO - To email: akinyeleangelina@gmail.com
+2025-10-25 15:44:45,854 - email_service - INFO - Resend API key present: True
+2025-10-25 15:44:45,854 - email_service - INFO - Email service instance created successfully
+2025-10-25 15:44:45,875 - werkzeug - WARNING -  * Debugger is active!
+2025-10-25 15:44:45,880 - werkzeug - INFO -  * Debugger PIN: 327-123-532
+2025-10-25 15:44:46,896 - werkzeug - INFO -  * Detected change in '/Users/mac/Documents/Repo/Html/nelson-programming-class/back-end/email_service.py', reloading
+2025-10-25 15:44:47,061 - email_service - INFO - EmailService initialized successfully
+2025-10-25 15:44:47,061 - email_service - INFO - From email: your-verified-email
+2025-10-25 15:44:47,061 - email_service - INFO - To email: akinyeleangelina@gmail.com
+2025-10-25 15:44:47,061 - email_service - INFO - Resend API key present: True
+2025-10-25 15:44:47,061 - email_service - INFO - Email service instance created successfully
+2025-10-25 15:44:47,082 - werkzeug - WARNING -  * Debugger is active!
+2025-10-25 15:44:47,089 - werkzeug - INFO -  * Debugger PIN: 327-123-532
+2025-10-25 15:44:56,190 - werkzeug - INFO -  * Detected change in '/Users/mac/Documents/Repo/Html/nelson-programming-class/back-end/email_service.py', reloading
+2025-10-25 15:44:56,364 - email_service - INFO - EmailService initialized successfully
+2025-10-25 15:44:56,364 - email_service - INFO - From email: your-verified-email
+2025-10-25 15:44:56,364 - email_service - INFO - To email: akinyeleangelina@gmail.com
+2025-10-25 15:44:56,364 - email_service - INFO - Resend API key present: True
+2025-10-25 15:44:56,364 - email_service - INFO - Email service instance created successfully
+2025-10-25 15:44:56,386 - werkzeug - WARNING -  * Debugger is active!
+2025-10-25 15:44:56,393 - werkzeug - INFO -  * Debugger PIN: 327-123-532
+2025-10-25 15:45:37,856 - werkzeug - INFO -  * Detected change in '/Users/mac/Documents/Repo/Html/nelson-programming-class/back-end/routes.py', reloading
+2025-10-25 15:45:38,119 - email_service - INFO - EmailService initialized successfully
+2025-10-25 15:45:38,119 - email_service - INFO - From email: your-verified-email
+2025-10-25 15:45:38,120 - email_service - INFO - To email: akinyeleangelina@gmail.com
+2025-10-25 15:45:38,120 - email_service - INFO - Resend API key present: True
+2025-10-25 15:45:38,120 - email_service - INFO - Email service instance created successfully
+2025-10-25 15:45:38,147 - werkzeug - WARNING -  * Debugger is active!
+2025-10-25 15:45:38,154 - werkzeug - INFO -  * Debugger PIN: 327-123-532
+2025-10-25 15:45:40,170 - werkzeug - INFO -  * Detected change in '/Users/mac/Documents/Repo/Html/nelson-programming-class/back-end/routes.py', reloading
+2025-10-25 15:45:40,331 - email_service - INFO - EmailService initialized successfully
+2025-10-25 15:45:40,332 - email_service - INFO - From email: your-verified-email
+2025-10-25 15:45:40,332 - email_service - INFO - To email: akinyeleangelina@gmail.com
+2025-10-25 15:45:40,332 - email_service - INFO - Resend API key present: True
+2025-10-25 15:45:40,332 - email_service - INFO - Email service instance created successfully
+2025-10-25 15:45:40,353 - werkzeug - WARNING -  * Debugger is active!
+2025-10-25 15:45:40,359 - werkzeug - INFO -  * Debugger PIN: 327-123-532
+2025-10-25 15:46:08,663 - werkzeug - INFO -  * Detected change in '/Users/mac/Documents/Repo/Html/nelson-programming-class/back-end/app.py', reloading
