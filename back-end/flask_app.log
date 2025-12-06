@@ -465,3 +465,189 @@ AttributeError: module 'resend' has no attribute 'core'
 2025-10-25 16:28:57,621 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:57] "[36mGET /nelson-programming-class/lib/waypoints/waypoints.min.js HTTP/1.1[0m" 304 -
 2025-10-25 16:28:57,623 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:57] "[36mGET /nelson-programming-class/js/main.js HTTP/1.1[0m" 304 -
 2025-10-25 16:28:57,632 - werkzeug - INFO - 127.0.0.1 - - [25/Oct/2025 16:28:57] "[36mGET /nelson-programming-class/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-12-06 15:37:30,655 - __main__ - INFO - Flask app starting up...
+2025-12-06 15:37:30,656 - __main__ - INFO - Template folder: C:\Users\Public\Source\repo\lino-gym-website
+2025-12-06 15:37:30,656 - __main__ - INFO - Static folder: C:\Users\Public\Source\repo\lino-gym-website
+2025-12-06 15:37:30,657 - __main__ - INFO - Debug mode: True
+2025-12-06 15:37:31,095 - email_service - ERROR - Failed to initialize EmailService: RESEND_API_KEY not found. Declare it as envvar or define a default value.
+2025-12-06 15:37:31,096 - email_service - ERROR - Failed to create EmailService instance: RESEND_API_KEY not found. Declare it as envvar or define a default value.
+2025-12-06 15:37:31,102 - __main__ - INFO - Routes initialized successfully
+2025-12-06 15:37:31,102 - __main__ - INFO - Starting Flask application on http://localhost:5000
+2025-12-06 15:37:31,633 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-06 15:37:31,634 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-06 15:37:31,639 - werkzeug - INFO -  * Restarting with stat
+2025-12-06 15:37:32,642 - __main__ - INFO - Flask app starting up...
+2025-12-06 15:37:32,643 - __main__ - INFO - Template folder: C:\Users\Public\Source\repo\lino-gym-website
+2025-12-06 15:37:32,645 - __main__ - INFO - Static folder: C:\Users\Public\Source\repo\lino-gym-website
+2025-12-06 15:37:32,646 - __main__ - INFO - Debug mode: True
+2025-12-06 15:37:32,868 - email_service - ERROR - Failed to initialize EmailService: RESEND_API_KEY not found. Declare it as envvar or define a default value.
+2025-12-06 15:37:32,869 - email_service - ERROR - Failed to create EmailService instance: RESEND_API_KEY not found. Declare it as envvar or define a default value.
+2025-12-06 15:37:32,874 - __main__ - INFO - Routes initialized successfully
+2025-12-06 15:37:32,874 - __main__ - INFO - Starting Flask application on http://localhost:5000
+2025-12-06 15:37:32,952 - werkzeug - WARNING -  * Debugger is active!
+2025-12-06 15:37:32,962 - werkzeug - INFO -  * Debugger PIN: 142-761-303
+2025-12-06 15:37:45,101 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:45] "GET / HTTP/1.1" 200 -
+2025-12-06 15:37:45,391 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:45] "GET /lino-gym-website/lib/flaticon/font/flaticon.css HTTP/1.1" 200 -
+2025-12-06 15:37:45,422 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:45] "GET /lino-gym-website/css/style.min.css HTTP/1.1" 200 -
+2025-12-06 15:37:45,767 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:45] "GET /lino-gym-website/img/Lino_Logo.png HTTP/1.1" 200 -
+2025-12-06 15:37:45,769 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:45] "GET /lino-gym-website/img/About%20us%201.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:45,774 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:45] "GET /lino-gym-website/img/Homepage%201.png HTTP/1.1" 200 -
+2025-12-06 15:37:45,782 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:45] "GET /lino-gym-website/img/feature-1.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:45,808 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:45] "GET /lino-gym-website/img/Homepage%202.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:46,243 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:46] "GET /lino-gym-website/lib/waypoints/waypoints.min.js HTTP/1.1" 200 -
+2025-12-06 15:37:46,256 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:46] "GET /lino-gym-website/lib/easing/easing.min.js HTTP/1.1" 200 -
+2025-12-06 15:37:46,269 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:46] "[33mGET /lino-gym-website/mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:37:46,297 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:46] "[33mGET /lino-gym-website/mail/contact.js HTTP/1.1[0m" 404 -
+2025-12-06 15:37:46,324 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:46] "GET /lino-gym-website/js/main.js HTTP/1.1" 200 -
+2025-12-06 15:37:46,350 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:46] "GET /lino-gym-website/img/feature-2.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:46,836 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:46] "GET /lino-gym-website/img/feature-3.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:46,838 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:46] "GET /lino-gym-website/img/feature-4.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:47,006 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:47] "GET /lino-gym-website/img/Team.1_exe-removebg-preview.png HTTP/1.1" 200 -
+2025-12-06 15:37:47,032 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:47] "GET /lino-gym-website/img/team-2.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:47,118 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:47] "GET /lino-gym-website/img/team-3.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:47,130 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:47] "GET /lino-gym-website/img/team-4.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:47,372 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:47] "GET /lino-gym-website/img/testimonial-2.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:47,372 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:47] "GET /lino-gym-website/img/testimonial-1.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:47,529 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:47] "GET /lino-gym-website/img/bg.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:47,530 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:47] "GET /lino-gym-website/img/carousel-1.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:47,532 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:47] "GET /lino-gym-website/img/carousel-2.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:47,533 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:47] "GET /lino-gym-website/img/testimonial-3.jpg HTTP/1.1" 200 -
+2025-12-06 15:37:48,803 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:48] "GET /lino-gym-website/lib/flaticon/font/Flaticon.woff2 HTTP/1.1" 200 -
+2025-12-06 15:37:49,839 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:37:49] "[33mGET /lino-gym-website/img/favicon.ico HTTP/1.1[0m" 404 -
+2025-12-06 15:38:26,699 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:26] "GET /about HTTP/1.1" 200 -
+2025-12-06 15:38:26,993 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:26] "[36mGET /lino-gym-website/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-12-06 15:38:27,002 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:27] "GET /lino-gym-website/img/about.jpg HTTP/1.1" 200 -
+2025-12-06 15:38:27,306 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:27] "[33mGET /lib/easing/easing.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:27,313 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:27] "[33mGET /lib/waypoints/waypoints.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:27,320 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:27] "[36mGET /lino-gym-website/css/style.min.css HTTP/1.1[0m" 304 -
+2025-12-06 15:38:27,359 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:27] "[33mGET /mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:27,367 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:27] "[33mGET /mail/contact.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:27,470 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:27] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:27,811 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:27] "[36mGET /lino-gym-website/lib/flaticon/font/Flaticon.woff2 HTTP/1.1[0m" 304 -
+2025-12-06 15:38:27,811 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:27] "[36mGET /lino-gym-website/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-12-06 15:38:30,337 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:30] "GET /feature HTTP/1.1" 200 -
+2025-12-06 15:38:30,471 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:30] "[33mGET /lib/flaticon/font/flaticon.css HTTP/1.1[0m" 404 -
+2025-12-06 15:38:30,569 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:30] "[33mGET /css/style.min.css HTTP/1.1[0m" 404 -
+2025-12-06 15:38:30,754 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:30] "[33mGET /img/Lino_Logo.png HTTP/1.1[0m" 404 -
+2025-12-06 15:38:30,757 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:30] "[33mGET /img/feature.jpg HTTP/1.1[0m" 404 -
+2025-12-06 15:38:30,767 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:30] "[33mGET /img/Head%201%20Testimonal.jpg HTTP/1.1[0m" 404 -
+2025-12-06 15:38:30,773 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:30] "[33mGET /img/Head%202.png HTTP/1.1[0m" 404 -
+2025-12-06 15:38:30,824 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:30] "[33mGET /img/Head%203.png HTTP/1.1[0m" 404 -
+2025-12-06 15:38:30,908 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:30] "[33mGET /lib/easing/easing.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:31,107 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:31] "[33mGET /lib/waypoints/waypoints.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:31,111 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:31] "[33mGET /mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:31,124 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:31] "[33mGET /mail/contact.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:31,175 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:31] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:31,712 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:31] "[33mGET /img/favicon.ico HTTP/1.1[0m" 404 -
+2025-12-06 15:38:39,678 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:39] "GET /class HTTP/1.1" 200 -
+2025-12-06 15:38:39,981 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:39] "[33mGET /lib/flaticon/font/flaticon.css HTTP/1.1[0m" 404 -
+2025-12-06 15:38:40,263 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:40] "[33mGET /css/style.min.css HTTP/1.1[0m" 404 -
+2025-12-06 15:38:40,272 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:40] "[33mGET /img/Lino_Logo.png HTTP/1.1[0m" 404 -
+2025-12-06 15:38:40,327 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:40] "[33mGET /lib/easing/easing.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:40,363 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:40] "[33mGET /lib/waypoints/waypoints.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:40,431 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:40] "[33mGET /mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:40,484 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:40] "[33mGET /mail/contact.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:40,803 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:40] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:48,714 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:48] "GET /contact HTTP/1.1" 200 -
+2025-12-06 15:38:48,827 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:48] "[36mGET /lino-gym-website/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-12-06 15:38:48,899 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:48] "[36mGET /lino-gym-website/css/style.min.css HTTP/1.1[0m" 304 -
+2025-12-06 15:38:49,131 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:49] "[36mGET /lino-gym-website/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-12-06 15:38:49,138 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:49] "[36mGET /lino-gym-website/img/Lino_Logo.png HTTP/1.1[0m" 304 -
+2025-12-06 15:38:49,185 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:49] "[33mGET /lino-gym-website/mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:49,187 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:49] "[36mGET /lino-gym-website/lib/waypoints/waypoints.min.js HTTP/1.1[0m" 304 -
+2025-12-06 15:38:49,187 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:49] "[36mGET /lino-gym-website/lib/easing/easing.min.js HTTP/1.1[0m" 304 -
+2025-12-06 15:38:49,230 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:49] "[33mGET /lino-gym-website/mail/contact.js HTTP/1.1[0m" 404 -
+2025-12-06 15:38:49,447 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:38:49] "[36mGET /lino-gym-website/js/main.js HTTP/1.1[0m" 304 -
+2025-12-06 15:39:03,316 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:03] "GET /about HTTP/1.1" 200 -
+2025-12-06 15:39:03,427 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:03] "[36mGET /lino-gym-website/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-12-06 15:39:03,583 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:03] "[36mGET /lino-gym-website/css/style.min.css HTTP/1.1[0m" 304 -
+2025-12-06 15:39:03,742 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:03] "[36mGET /lino-gym-website/lib/flaticon/font/Flaticon.woff2 HTTP/1.1[0m" 304 -
+2025-12-06 15:39:03,744 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:03] "[36mGET /lino-gym-website/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-12-06 15:39:03,784 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:03] "[33mGET /lib/easing/easing.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:39:03,795 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:03] "[36mGET /lino-gym-website/img/about.jpg HTTP/1.1[0m" 304 -
+2025-12-06 15:39:03,802 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:03] "[33mGET /lib/waypoints/waypoints.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:39:03,921 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:03] "[33mGET /mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:39:04,061 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:04] "[33mGET /mail/contact.js HTTP/1.1[0m" 404 -
+2025-12-06 15:39:04,082 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:04] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2025-12-06 15:39:32,179 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:32] "GET /contact HTTP/1.1" 200 -
+2025-12-06 15:39:32,266 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:32] "[36mGET /lino-gym-website/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-12-06 15:39:32,444 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:32] "[36mGET /lino-gym-website/css/style.min.css HTTP/1.1[0m" 304 -
+2025-12-06 15:39:32,617 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:32] "[36mGET /lino-gym-website/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-12-06 15:39:32,620 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:32] "[36mGET /lino-gym-website/img/Lino_Logo.png HTTP/1.1[0m" 304 -
+2025-12-06 15:39:32,717 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:32] "[36mGET /lino-gym-website/lib/easing/easing.min.js HTTP/1.1[0m" 304 -
+2025-12-06 15:39:32,720 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:32] "[36mGET /lino-gym-website/lib/waypoints/waypoints.min.js HTTP/1.1[0m" 304 -
+2025-12-06 15:39:32,731 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:32] "[33mGET /lino-gym-website/mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:39:32,780 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:32] "[33mGET /lino-gym-website/mail/contact.js HTTP/1.1[0m" 404 -
+2025-12-06 15:39:32,999 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:39:32] "[36mGET /lino-gym-website/js/main.js HTTP/1.1[0m" 304 -
+2025-12-06 15:40:29,222 - routes - INFO - Contact form submitted - Name: Nelson, Email: othyFire@gmail.com, Phone: 09135241654
+2025-12-06 15:40:29,224 - routes - ERROR - Email service is not available. Please check configuration.
+2025-12-06 15:40:29,239 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:40:29] "POST /contact HTTP/1.1" 200 -
+2025-12-06 15:40:29,420 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:40:29] "[36mGET /lino-gym-website/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-12-06 15:40:29,457 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:40:29] "[36mGET /lino-gym-website/css/style.min.css HTTP/1.1[0m" 304 -
+2025-12-06 15:40:29,773 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:40:29] "[33mGET /lino-gym-website/mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:40:29,774 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:40:29] "[36mGET /lino-gym-website/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-12-06 15:40:29,783 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:40:29] "[36mGET /lino-gym-website/img/Lino_Logo.png HTTP/1.1[0m" 304 -
+2025-12-06 15:40:29,784 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:40:29] "[36mGET /lino-gym-website/lib/easing/easing.min.js HTTP/1.1[0m" 304 -
+2025-12-06 15:40:29,790 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:40:29] "[36mGET /lino-gym-website/lib/waypoints/waypoints.min.js HTTP/1.1[0m" 304 -
+2025-12-06 15:40:29,879 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:40:29] "[33mGET /lino-gym-website/mail/contact.js HTTP/1.1[0m" 404 -
+2025-12-06 15:40:30,104 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:40:30] "[36mGET /lino-gym-website/js/main.js HTTP/1.1[0m" 304 -
+2025-12-06 15:58:43,021 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:43] "GET /contact HTTP/1.1" 200 -
+2025-12-06 15:58:45,019 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:45] "[36mGET /lino-gym-website/lib/flaticon/font/Flaticon.woff2 HTTP/1.1[0m" 304 -
+2025-12-06 15:58:48,079 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:48] "GET /feature HTTP/1.1" 200 -
+2025-12-06 15:58:48,317 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:48] "[36mGET /lino-gym-website/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-12-06 15:58:48,450 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:48] "[33mGET /img/feature.jpg HTTP/1.1[0m" 404 -
+2025-12-06 15:58:48,452 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:48] "[36mGET /lino-gym-website/css/style.min.css HTTP/1.1[0m" 304 -
+2025-12-06 15:58:48,454 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:48] "[36mGET /lino-gym-website/img/Lino_Logo.png HTTP/1.1[0m" 304 -
+2025-12-06 15:58:48,466 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:48] "[33mGET /img/Head%201%20Testimonal.jpg HTTP/1.1[0m" 404 -
+2025-12-06 15:58:48,470 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:48] "[33mGET /img/Head%202.png HTTP/1.1[0m" 404 -
+2025-12-06 15:58:48,646 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:48] "[36mGET /lino-gym-website/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-12-06 15:58:48,785 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:48] "[33mGET /img/Head%203.png HTTP/1.1[0m" 404 -
+2025-12-06 15:58:48,787 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:48] "[33mGET /lib/easing/easing.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:58:48,791 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:48] "[33mGET /lib/waypoints/waypoints.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:58:48,808 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:48] "[33mGET /mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:58:48,813 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:48] "[33mGET /mail/contact.js HTTP/1.1[0m" 404 -
+2025-12-06 15:58:48,958 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:58:48] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2025-12-06 15:59:02,578 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:59:02] "GET /class HTTP/1.1" 200 -
+2025-12-06 15:59:02,831 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:59:02] "[33mGET /css/style.min.css HTTP/1.1[0m" 404 -
+2025-12-06 15:59:02,836 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:59:02] "[33mGET /lib/flaticon/font/flaticon.css HTTP/1.1[0m" 404 -
+2025-12-06 15:59:02,940 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:59:02] "[33mGET /img/Lino_Logo.png HTTP/1.1[0m" 404 -
+2025-12-06 15:59:02,942 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:59:02] "[33mGET /lib/easing/easing.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:59:02,943 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:59:02] "[33mGET /lib/waypoints/waypoints.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:59:02,949 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:59:02] "[33mGET /mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-12-06 15:59:03,143 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:59:03] "[33mGET /mail/contact.js HTTP/1.1[0m" 404 -
+2025-12-06 15:59:03,175 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 15:59:03] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2025-12-06 16:01:05,654 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:05] "GET /feature HTTP/1.1" 200 -
+2025-12-06 16:01:05,780 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:05] "[36mGET /lino-gym-website/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-12-06 16:01:05,898 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:05] "[36mGET /lino-gym-website/css/style.min.css HTTP/1.1[0m" 304 -
+2025-12-06 16:01:06,122 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:06] "[36mGET /lino-gym-website/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-12-06 16:01:06,123 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:06] "[36mGET /lino-gym-website/img/Lino_Logo.png HTTP/1.1[0m" 304 -
+2025-12-06 16:01:06,131 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:06] "[33mGET /img/feature.jpg HTTP/1.1[0m" 404 -
+2025-12-06 16:01:06,136 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:06] "[33mGET /img/Head%201%20Testimonal.jpg HTTP/1.1[0m" 404 -
+2025-12-06 16:01:06,144 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:06] "[33mGET /img/Head%202.png HTTP/1.1[0m" 404 -
+2025-12-06 16:01:06,226 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:06] "[33mGET /img/Head%203.png HTTP/1.1[0m" 404 -
+2025-12-06 16:01:06,445 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:06] "[33mGET /lib/easing/easing.min.js HTTP/1.1[0m" 404 -
+2025-12-06 16:01:06,450 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:06] "[33mGET /lib/waypoints/waypoints.min.js HTTP/1.1[0m" 404 -
+2025-12-06 16:01:06,501 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:06] "[33mGET /mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-12-06 16:01:06,520 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:06] "[33mGET /mail/contact.js HTTP/1.1[0m" 404 -
+2025-12-06 16:01:06,543 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:06] "[33mGET /js/main.js HTTP/1.1[0m" 404 -
+2025-12-06 16:01:07,862 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:07] "GET /contact HTTP/1.1" 200 -
+2025-12-06 16:01:08,141 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:08] "[36mGET /lino-gym-website/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-12-06 16:01:08,308 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:08] "[36mGET /lino-gym-website/css/style.min.css HTTP/1.1[0m" 304 -
+2025-12-06 16:01:08,310 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:08] "[36mGET /lino-gym-website/img/Lino_Logo.png HTTP/1.1[0m" 304 -
+2025-12-06 16:01:08,317 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:08] "[36mGET /lino-gym-website/lib/easing/easing.min.js HTTP/1.1[0m" 304 -
+2025-12-06 16:01:08,350 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:08] "[36mGET /lino-gym-website/lib/waypoints/waypoints.min.js HTTP/1.1[0m" 304 -
+2025-12-06 16:01:08,373 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:08] "[33mGET /lino-gym-website/mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-12-06 16:01:08,495 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:08] "[33mGET /lino-gym-website/mail/contact.js HTTP/1.1[0m" 404 -
+2025-12-06 16:01:08,654 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:08] "[36mGET /lino-gym-website/js/main.js HTTP/1.1[0m" 304 -
+2025-12-06 16:01:08,867 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:08] "[36mGET /lino-gym-website/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-12-06 16:01:10,216 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:10] "GET /class HTTP/1.1" 200 -
+2025-12-06 16:01:10,325 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:10] "[36mGET /lino-gym-website/lib/flaticon/font/flaticon.css HTTP/1.1[0m" 304 -
+2025-12-06 16:01:10,601 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:10] "[33mGET /lib/easing/easing.min.js HTTP/1.1[0m" 404 -
+2025-12-06 16:01:10,604 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:10] "[33mGET /lib/waypoints/waypoints.min.js HTTP/1.1[0m" 404 -
+2025-12-06 16:01:10,607 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:10] "[33mGET /mail/jqBootstrapValidation.min.js HTTP/1.1[0m" 404 -
+2025-12-06 16:01:10,612 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:10] "[36mGET /lino-gym-website/img/Lino_Logo.png HTTP/1.1[0m" 304 -
+2025-12-06 16:01:10,617 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:10] "[36mGET /lino-gym-website/css/style.min.css HTTP/1.1[0m" 304 -
+2025-12-06 16:01:10,702 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:10] "[33mGET /mail/contact.js HTTP/1.1[0m" 404 -
+2025-12-06 16:01:11,039 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:11] "[36mGET /lino-gym-website/img/bg.jpg HTTP/1.1[0m" 304 -
+2025-12-06 16:01:11,104 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2025 16:01:11] "[33mGET /js/main.js HTTP/1.1[0m" 404 -

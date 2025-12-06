@@ -9,36 +9,35 @@
     <meta content="Free Website Template" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{{ url_for('static', filename='img/favicon.ico') }}" rel="icon">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
     <!-- Flaticon Font -->
-    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='lib/flaticon/font/flaticon.css') }}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.min.css" rel="stylesheet"> 
+    <link href="{{ url_for('static', filename='css/style.min.css') }}" rel="stylesheet"> 
 </head>
 
 <body class="bg-white">
     <!-- Navbar Start -->
-    <div class="container-fluid p-0 nav-bar">
+<div class="container-fluid p-0 nav-bar">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
-            <a href="" class="navbar-brand">
-                <img src="img/Lino_Logo.png" width="500" height="500" alt="Logo" class="img-fluid">
+            <a href="{{ url_for('index') }}" class="navbar-brand">
+                <img src="{{ url_for('static', filename='img/Lino_Logo.png') }}" width="500" height="500" alt="Logo" class="img-fluid">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4 bg-secondary">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About Us</a>
-                    <a href="feature.html" class="nav-item nav-link">Our Features</a>
-                    <a href="class.html" class="nav-item nav-link">Classes</a>
-                    
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="{{ url_for('index') }}" class="nav-item nav-link {% if request.endpoint == 'index' %}active{% endif %}">Home</a>
+                    <a href="{{ url_for('about') }}" class="nav-item nav-link {% if request.endpoint == 'about' %}active{% endif %}">About Us</a>
+                    <a href="{{ url_for('feature') }}" class="nav-item nav-link {% if request.endpoint == 'feature' %}active{% endif %}">Our Features</a>
+                    <a href="{{ url_for('class_page') }}" class="nav-item nav-link {% if request.endpoint == 'class_page' %}active{% endif %}">Classes</a>
+                    <a href="{{ url_for('contact') }}" class="nav-item nav-link {% if request.endpoint == 'contact' %}active{% endif %}">Contact</a>
                 </div>
             </div>
         </nav>
@@ -51,7 +50,7 @@
         <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
             <h4 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase font-weight-bold">Classes</h4>
             <div class="d-inline-flex">
-                <p class="m-0 text-white"><a class="text-white" href="">Home</a></p>
+                <p class="m-0 text-white"><a class="text-white" href="{{ url_for('index') }}">Home</a></p>
                 <p class="m-0 text-white px-2">/</p>
                 <p class="m-0 text-white">Classes</p>
             </div>
