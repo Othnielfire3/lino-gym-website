@@ -1,11 +1,13 @@
-python3 -m venv venv
-source venv/bin/activate 
+# for windows 
+python -m venv .venv
 
-venv\Scripts\activate  # For Windows
-
-
+# to load up localhost
 cd back-end
+python app.py 
+
+# to restore all data including flask
 pip install -r requirements.txt
 
-cd back-end
-python app.py
+# to install new virtual environment
+PowerShell: .\.venv\Scripts\Activate.ps1
+Command Prompt: .\.venv\Scripts\activate.bat
