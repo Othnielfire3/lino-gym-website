@@ -1,6 +1,7 @@
 # for windows 
 python -m venv .venv
 
+
 # to load up localhost
 cd back-end
 python app.py 
